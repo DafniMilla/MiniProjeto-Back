@@ -16,7 +16,7 @@ router.post("/cadastro", async(req,res) => {
 
                 name:cadastro.nome,
                 email:cadastro.email,
-                senha:hashsenha
+                password :hashsenha
 
             }
         })
